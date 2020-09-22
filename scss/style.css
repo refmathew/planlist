@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: linear-gradient(200deg, #f6d365, #fda085);
+  color: #fffaf4;
+}
+
+.header {
+  height: 15vh;
+}
+
+.header__title {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 3rem;
+}
+
+.search {
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search__input, .search__add {
+  border: none;
+  background-color: white;
+  height: 1.875rem;
+}
+
+.search__add {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

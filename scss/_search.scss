@@ -1,0 +1,20 @@
+.search{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__input,
+    &__add{
+        border: none;
+        background-color: white;
+        height: 1.875rem;
+    }
+
+    &__input{
+    }
+
+    &__add{
+        cursor: pointer;
+    }
+}
