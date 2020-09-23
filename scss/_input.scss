@@ -1,0 +1,28 @@
+.input{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__text,
+    &__add{
+        border: none;
+        background-color: white;
+        height: 1.875rem;
+    }
+
+    &__text{
+        display: block;
+        width: 40vh;
+        border-bottom-left-radius: 0.9375rem;
+        border-top-left-radius: 0.9375rem;
+        padding-left: 0.9375rem;
+    }
+
+    &__add{
+        width: 1.875rem;
+        border-bottom-right-radius: 0.9375rem;
+        border-top-right-radius: 0.9375rem;
+        cursor: pointer;
+    }
+}

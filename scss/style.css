@@ -34,7 +34,7 @@ body {
   font-size: 3rem;
 }
 
-.search {
+.input {
   height: 15vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,13 +47,30 @@ body {
           align-items: center;
 }
 
-.search__input, .search__add {
+.input__text, .input__add {
   border: none;
   background-color: white;
   height: 1.875rem;
 }
 
-.search__add {
+.input__text {
+  display: block;
+  width: 40vh;
+  border-bottom-left-radius: 0.9375rem;
+  border-top-left-radius: 0.9375rem;
+  padding-left: 0.9375rem;
+}
+
+.input__add {
+  width: 1.875rem;
+  border-bottom-right-radius: 0.9375rem;
+  border-top-right-radius: 0.9375rem;
   cursor: pointer;
+}
+
+.planlist-wrapper {
+  width: 100%;
+  color: black;
+  font-size: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
