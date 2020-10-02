@@ -1,7 +1,82 @@
 .planlist-wrapper{
+    flex: 7;
+    margin-top: 1.875rem;
     width: 100%;
+    font-family: sans-serif;
     color: black;
-    font-size: 1rem;
+    font-size: .8rem;
+    margin-bottom: 3.125rem;
 }
 
+.planlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    &__plan-container{
+        width: 29.375rem;
+        margin: 0.3125rem;
+        background-color: white;
+        border-radius: 0.3125rem;
+        overflow: hidden;
+        list-style: none;
+        transition: .5s all ease-in-out;
+    }
+
+    &__plan{
+        flex: 1;
+        width: inherit;
+        border: none;
+        resize: none;
+        overflow: hidden;
+        padding: 0.3125rem 0.9375rem;
+    }
+
+    &__btn-wrapper{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__trash-btn,
+    &__done-btn{
+        background: #ffffff;
+        border-radius: 0;
+    }
+
+    &__trash-btn{
+        background-color: #fff;
+        color: rgb(185, 29, 8);
+    
+        &:hover{
+            background-color: rgba(185, 29, 8, .8);
+            color: #ffffff;
+        }
+        &:active{
+            background-color:  rgb(185, 29, 8);
+        }
+    }
+    
+    &__done-btn{
+        background-color: #fff;
+        color: rgb(8, 118, 182);
+    
+        &:hover{
+            background-color:rgba(8, 118, 182, .8);
+            color: white;
+        }
+        &:active{
+            background-color:  rgb(8, 118, 182);
+        }
+    }
+         
+    &__fall{
+        opacity: 0;
+        transform: translateX(30rem);
+        width: 5rem;
+    }
+
+    &__done{
+        opacity: 0.5;
+        pointer-events: none;
+    }
+}

@@ -1,8 +1,11 @@
 .header{
-    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
 
     &__title{
         font-family: 'Varela Round', sans-serif;
-        font-size: 3rem;
+        font-size: 4rem;
     }
 }

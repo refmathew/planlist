@@ -18,12 +18,23 @@
     </header>
 
     <form class="input">
-        <input class="input__text" type="text">
+        <input class="input__text" type="text" placeholder="Title...">
         <button class="input__add" type="submit">
             <i class="fas fa-plus-square"></i>
         </button>
+
     </form>
 
+    <div class="selection-wrapper">
+        <div class="selection">
+            <select name="plan-status" class="selection__plan-status">
+                <option value="All" selected>All</option>
+                <option value="Completed">Completed</option>
+                <option value="Uncompleted">Uncompleted</option>
+            </select>
+        </div>
+    </div>
+    
     <div class="planlist-wrapper">
         <ul class="planlist"></ul>
     </div>

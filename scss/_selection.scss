@@ -1,0 +1,30 @@
+.selection-wrapper{
+    width: 29.375rem;
+    margin: 0 auto;
+}
+.selection{
+    position: relative;
+    width: 7rem;
+    border-radius: 0.3125rem;
+    overflow: hidden;
+
+    &__plan-status{
+        position: relative;
+        width: 100%;
+        height: 1.875rem;
+        padding: 0.3125rem;
+        color: rgba(235, 154, 48, 1);
+        appearance: none;
+        border: none;
+        cursor: pointer;
+
+        &::after{
+            content: "\25BC";
+            position: absolute;
+            background: green;
+            top: 0;
+            right: 0;
+            padding: 1rem;
+        }
+    }
+}
